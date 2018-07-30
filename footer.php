@@ -15,7 +15,7 @@
 
 	<footer id="colophon" class="site-footer">
 		<div class="site-info">
-			<p>Copyright © 2018 St. John Fisher College • 3690 East Avenue, Rochester, New York 14618 • 585.385.8000</p>
+			<p id=“footer-info”>Copyright &copy; <?php echo date(“Y”) ?> St. John Fisher College • 3690 East Avenue, Rochester, New York 14618 • 585.385.8000</p>
 		</div><!-- .site-info -->
 	</footer><!-- #colophon -->
 </div><!-- #page -->
