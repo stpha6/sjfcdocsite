@@ -5,7 +5,7 @@ Github Theme URI: https://github.com/stpha6/sjfcdocsite
 Author: SJFC WebTeam
 Author URI: https://doc.sjfc.edu
 Description: Custom theme for SJFC Sites
-Version: 1.1.0
+Version: 1.1.1
 License: GNU General Public License v2 or later
 License URI: LICENSE
 Text Domain: sjfcdoc
@@ -624,11 +624,11 @@ textarea {
 ## Links
 --------------------------------------------------------------*/
 a {
-	color: royalblue;
+	color: #933;
 }
 
 a:visited {
-	color: purple;
+	color: #933;
 }
 
 a:hover, a:focus, a:active {
@@ -919,6 +919,7 @@ object {
 /* Make sure logo link wraps around logo image. */
 .custom-logo-link {
 	display: inline-block;
+	margin:10px 0 0 15px;
 }
 
 /*--------------------------------------------------------------
@@ -992,3 +993,5 @@ object {
 .gallery-caption {
 	display: block;
 }
+
+div.site-info { margin: 10px 0 0 15px; }
