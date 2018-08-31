@@ -47,11 +47,16 @@
 	<a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', 'sjfcdoc' ); ?></a>
 
 	<header id="masthead" class="site-header">
-		<div class="site-branding">
+		<div id="uptop"><div class="site-branding">
 			<?php
 			the_custom_logo(); ?>
 
-		</div><!-- .site-branding -->
+		</div>
+		<div class="site-title"><h1>
+		 <?php the_title(); ?>
+		 </h1>
+		</div>
+	</div><!-- .site-branding -->
 
 		<nav id="site-navigation" class="main-navigation">
 			<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Primary Menu', 'sjfcdoc' ); ?></button>

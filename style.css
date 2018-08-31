@@ -1002,3 +1002,22 @@ object {
 }
 
 div.site-info { margin: 10px 0 0 15px; }
+
+#uptop {
+display:flex;
+}
+
+div.site-branding {
+	width:210px;
+}
+
+div.site-title {
+	flex:1;
+}
+
+.site-title h1 {
+	padding-top: 1.2em;
+	font-size:2.2em;
+}
+
+
