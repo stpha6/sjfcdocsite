@@ -714,6 +714,21 @@ a:hover, a:active {
 	.main-navigation ul {
 		display: block;
 	}
+	.site-title h1 {
+	padding-top: 1.2em;
+	font-size:2.2em;
+	}
+
+
+}
+
+@media screen and (max-width: 640px) {
+	.site-title h1 {
+		padding-top: 1.4em;
+		font-size:1.7em;
+		line-height: 1em;
+		
+	}
 }
 
 .site-main .comment-navigation, .site-main
@@ -1015,9 +1030,5 @@ div.site-title {
 	flex:1;
 }
 
-.site-title h1 {
-	padding-top: 1.2em;
-	font-size:2.2em;
-}
 
 
