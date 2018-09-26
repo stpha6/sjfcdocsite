@@ -1030,5 +1030,13 @@ div.site-title {
 	flex:1;
 }
 
+#eckb-article-page-container {
+    width: 100%;
+    position: relative;
+    text-align: left;
+    max-width: 100% !important; 
+    margin: auto;
+}
+
 
 
