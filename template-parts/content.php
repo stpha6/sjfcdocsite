@@ -29,7 +29,7 @@
 		<?php endif; ?>
 	</header><!-- .entry-header -->
 
-	<?php //sjfcdoc_post_thumbnail(); ?>
+	<?php sjfcdoc_post_thumbnail(); ?>
 
 	<div class="entry-content">
 		<?php
