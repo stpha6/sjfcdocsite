@@ -5,11 +5,11 @@ Github Theme URI: https://github.com/stpha6/sjfcdocsite
 Author: SJFC WebTeam
 Author URI: https://doc.sjfc.edu
 Description: Custom theme for SJFC Sites
-Version: 1.5.3
+Version: 1.6.0
 License: GNU General Public License v2 or later
 License URI: LICENSE
 Text Domain: sjfcdoc
-Tags: 1.5.3
+Tags: 1.6.0
 
 This theme, like WordPress, is licensed under the GPL.
 Use it to make something cool, have fun, and share what you've learned with others.
@@ -473,14 +473,16 @@ body {
 	background-color: #eee;
     background-image: url(https://fisherforms.sjfc.edu/wp-content/uploads/2017/07/headway-imported-image.gif);
     background-repeat: no-repeat;
-    background-position: center top;
+    background-position: right top;
     font-family: 'Open Sans', sans-serif;
 }
 
 .site-content {
 background: #fff;
 padding: 20px;
-margin: 10px;
+max-width: 1022px;
+margin: 153px auto auto auto;
+box-shadow: #c7c7c7 1px 1px 8px;
 }
 
 hr {
@@ -1024,6 +1026,7 @@ display:flex;
 
 div.site-branding {
 	width:210px;
+	margin-top: -150px;
 }
 
 div.site-title {
