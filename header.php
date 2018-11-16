@@ -62,7 +62,7 @@
 					<?php
 					the_custom_logo(); ?>
 					<a href="https://www.sjfc.edu/">
-						<img src="http://jackson.sjfc.edu/forms-test/wp-content/uploads/2013/06/logo-red.png" alt="St.John Fisher College">
+						<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/fisherlogo" alt="St.John Fisher College">
 					</a>
 				</div>
 			</div><!-- .site-branding -->
