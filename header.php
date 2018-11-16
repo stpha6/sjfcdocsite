@@ -61,8 +61,5 @@
 				<div id="uptop"><div class="site-branding">
 					<?php
 					the_custom_logo(); ?>
-					<a href="https://www.sjfc.edu/">
-						<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/fisherlogo" alt="St.John Fisher College">
-					</a>
 				</div>
 			</div><!-- .site-branding -->
